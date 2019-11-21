@@ -1,0 +1,71 @@
+books: 
+  - {id: 3151772,name: '一页纸项目管理'}
+  - {id: 2222618,name: '项目管理最佳实践方法'}
+  - {id: 3668161,name: '项目管理之美'}
+  - {id: 6404010,name: '不懂项目管理，还敢拼职场'}
+  - {id: 6011928,name: '写给大家看的项目管理书'}
+  - {id: 2327024,name: 'SCRUM敏捷项目管理'}
+  - {id: 3533221,name: '非暴力沟通'}
+  - {id: 4209569,name: '深入浅出PMP'}
+  - {id: 4743056,name: '用户故事与敏捷方法'}
+  - {id: 2208626,name: '代码大全'}
+  - {id: 1108725,name: '人件'}
+  - {id: 1102259,name: '人月神话'}
+  - {id: 3017834,name: '敏捷软件开发'}
+  - {id: 26577755,name: '构建之法（第二版）'}
+  - {id: 4826290,name: '企业应用架构模式'}
+  - {id: 6862062,name: '持续交付'}
+  - {id: 6038371,name: 'javaScript DOM 编程艺术'}
+  - {id: 3886044,name: '瞬间之美:Web界面设计如何让用户心动'}
+  - {id: 4201552,name: '用户体验草图设计'}
+  - {id: 25863515,name: '图解HTTP'}
+  - {id: 25752357,name: 'HTML与CSS进阶教程'}
+  - {id: 1801050,name: '软件测试'}
+  - {id: 1445661,name: '软件测试的艺术'}
+  - {id: 2178611,name: '软件测试工程师面试指导'}
+  - {id: 7151417,name: 'Essential Software Test Design'}
+  - {id: 4009658,name: '微软的软件测试之道'}
+  - {id: 30310299,name: '《HI,BUGS》全面软件测试'}
+  - {id: 1230459,name: '计算机软件测试'}
+  - {id: 4818689,name: '探索式软件测试'}
+  - {id: 22232395,name: '自动化测试最佳实践'}
+  - {id: 26937418,name: '软件自动化测试开发'}
+  - {id: 1146227,name: '有效软件测试'}
+  - {id: 25742200,name: 'Google软件测试之道'}
+
+source:
+  - {name: "项目管理知识体系指南（PMBOK指南）" , link: "https://book.douban.com/subject/30230063" }
+  - {name: "人月神话" , link: "https://book.douban.com/subject/1102259"}
+  - {name: "人件" , link: "https://book.douban.com/subject/1108725"}
+  - {name: "一页纸项目管理" , link: "https://book.douban.com/subject/3151772"}
+  - {name: "项目管理最佳实践方法" , link: "https://book.douban.com/subject/2222618"}
+  - {name: "项目管理之美" , link: "https://book.douban.com/subject/3668161"}
+  - {name: "不懂项目管理，还敢拼职场" , link: "https://book.douban.com/subject/6404010"}
+  - {name: "写给大家看的项目管理书" , link: "https://book.douban.com/subject/6011928"}
+  - {name: "SCRUM敏捷项目管理" , link: "https://book.douban.com/subject/2327024"}
+  - {name: "非暴力沟通" , link: "https://book.douban.com/subject/3533221"}
+  - {name: "深入浅出PMP" , link: "https://book.douban.com/subject/4209569"}
+  - {name: "用户故事与敏捷方法" , link: "https://book.douban.com/subject/4743056"}
+  - {name: "代码大全" , link: "https://book.douban.com/subject/2208626"}
+  - {name: "敏捷软件开发" , link: "https://book.douban.com/subject/3017834"}
+  - {name: "构建之法（第二版）" , link: "https://book.douban.com/subject/26577755"}
+  - {name: "企业应用架构模式" , link: "https://book.douban.com/subject/4826290"}
+  - {name: "持续交付" , link: "https://book.douban.com/subject/6862062"}
+  - {name: "javaScript DOM 编程艺术" , link: "https://book.douban.com/subject/6038371"}
+  - {name: "瞬间之美:Web界面设计如何让用户心动" , link: "https://book.douban.com/subject/3886044"}
+  - {name: "用户体验草图设计" , link: "https://book.douban.com/subject/4201552"}
+  - {name: "图解HTTP" , link: "https://book.douban.com/subject/25863515"}
+  - {name: "HTML与CSS进阶教程" , link: "https://book.douban.com/subject/25752357"}
+  - {name: "软件测试" , link: "https://book.douban.com/subject/1801050"}
+  - {name: "软件测试的艺术" , link: "https://book.douban.com/subject/1445661"}
+  - {name: "软件测试工程师面试指导" , link: "https://book.douban.com/subject/2178611"}
+  - {name: "Essential Software Test Design" , link: "https://book.douban.com/subject/7151417"}
+  - {name: "微软的软件测试之道" , link: "https://book.douban.com/subject/4009658"}
+  - {name: "HI,BUGS全面软件测试" , link: "https://book.douban.com/subject/30310299"}
+  - {name: "计算机软件测试" , link: "https://book.douban.com/subject/1230459"}
+  - {name: "探索式软件测试" , link: "https://book.douban.com/subject/4818689"}
+  - {name: "自动化测试最佳实践" , link: "https://book.douban.com/subject/22232395"}
+  - {name: "自动化测试最佳实践" , link: "https://book.douban.com/subject/22232395"}
+  - {name: "软件自动化测试开发" , link: "https://book.douban.com/subject/26937418"}
+  - {name: "有效软件测试" , link: "https://book.douban.com/subject/1146227"}
+  - {name: "Google软件测试之道" , link: "https://book.douban.com/subject/25742200"}

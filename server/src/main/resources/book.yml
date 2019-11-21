@@ -1,0 +1,61 @@
+book:
+  - {name: "项目管理知识体系指南（PMBOK指南）" , link: "https://book.douban.com/subject/30230063" }
+  - {name: "人月神话" , link: "https://book.douban.com/subject/1102259"}
+  - {name: "人件" , link: "https://book.douban.com/subject/1108725"}
+  - {name: "一页纸项目管理" , link: "https://book.douban.com/subject/3151772"}
+  - {name: "项目管理最佳实践方法" , link: "https://book.douban.com/subject/2222618"}
+  - {name: "项目管理之美" , link: "https://book.douban.com/subject/3668161"}
+  - {name: "不懂项目管理，还敢拼职场" , link: "https://book.douban.com/subject/6404010"}
+  - {name: "写给大家看的项目管理书" , link: "https://book.douban.com/subject/6011928"}
+  - {name: "SCRUM敏捷项目管理" , link: "https://book.douban.com/subject/2327024"}
+  - {name: "非暴力沟通" , link: "https://book.douban.com/subject/3533221"}
+  - {name: "深入浅出PMP" , link: "https://book.douban.com/subject/4209569"}
+  - {name: "用户故事与敏捷方法" , link: "https://book.douban.com/subject/4743056"}
+  - {name: "代码大全" , link: "https://book.douban.com/subject/2208626"}
+  - {name: "敏捷软件开发" , link: "https://book.douban.com/subject/3017834"}
+  - {name: "构建之法（第二版）" , link: "https://book.douban.com/subject/26577755"}
+  - {name: "企业应用架构模式" , link: "https://book.douban.com/subject/4826290"}
+  - {name: "持续交付" , link: "https://book.douban.com/subject/6862062"}
+  - {name: "javaScript DOM 编程艺术" , link: "https://book.douban.com/subject/6038371"}
+  - {name: "瞬间之美:Web界面设计如何让用户心动" , link: "https://book.douban.com/subject/3886044"}
+  - {name: "用户体验草图设计" , link: "https://book.douban.com/subject/4201552"}
+  - {name: "图解HTTP" , link: "https://book.douban.com/subject/25863515"}
+  - {name: "HTML与CSS进阶教程" , link: "https://book.douban.com/subject/25752357"}
+  - {name: "软件测试" , link: "https://book.douban.com/subject/1801050"}
+  - {name: "软件测试的艺术" , link: "https://book.douban.com/subject/1445661"}
+  - {name: "软件测试工程师面试指导" , link: "https://book.douban.com/subject/2178611"}
+  - {name: "Essential Software Test Design" , link: "https://book.douban.com/subject/7151417"}
+  - {name: "微软的软件测试之道" , link: "https://book.douban.com/subject/4009658"}
+  - {name: "HI,BUGS全面软件测试" , link: "https://book.douban.com/subject/30310299"}
+  - {name: "计算机软件测试" , link: "https://book.douban.com/subject/1230459"}
+  - {name: "探索式软件测试" , link: "https://book.douban.com/subject/4818689"}
+  - {name: "自动化测试最佳实践" , link: "https://book.douban.com/subject/22232395"}
+  - {name: "自动化测试最佳实践" , link: "https://book.douban.com/subject/22232395"}
+  - {name: "软件自动化测试开发" , link: "https://book.douban.com/subject/26937418"}
+  - {name: "有效软件测试" , link: "https://book.douban.com/subject/1146227"}
+  - {name: "Google软件测试之道" , link: "https://book.douban.com/subject/25742200"}
+
+jobInfo:
+  - {name: "产品经理" , info: "产品经理是企业中专门负责产品管理的职位，产品经理负责市场调查并根据产品、市场及用户等的需求，确定开发何种产品，选择何种业务模式、商业模式等。并推动相应产品的开发组织，他还要根据产品的生命周期，协调研发、营销、运营等，确定和组织实施相应的产品策略，以及其他一系列相关的产品管理活动。"}
+  - {name: "项目经理" , info: "项目经理是指企业建立以项目经理责任制为核心，对项目实行质量、安全、进度、成本管理的责任保证体系和全面提高项目管理水平设立的重要管理岗位。它要负责处理所有事务性质的工作。也可称为“执行制作人”（Executive Producer）。项目经理是为项目的成功策划和执行负总责的人。项目经理是项目团队的领导者，项目经理首要职责是在预算范围内按时优质地领导项目小组完成全部项目工作内容，并使客户满意。为此项目经理必须在一系列的项目计划、组织和控制活动中做好领导工作，从而实现项目目标。"}
+  - {name: "UI设计师" , info: "UI设计师简称UID（User Interface Designer），指从事对软件的人机交互、操作逻辑、界面美观的整体设计工作的人。"}
+  - {name: "软件开发工程师" , info: "软件工程师是从事软件开发相关工作的人员的统称。 软件开发工程师的技术要求是比较全面的，除了最基础的编程语言（C语言/C++/JAVA等）、数据库技术（SQL/ORACLE/DB2等）、.NET平台技术、C#、C/S B/S程序开发，还有诸多如JAVA SCRIPT、AJAX、HIBERNATE、SPRING、J2EE、WEB SERVICE、STRUTS等前沿技术。"}
+  - {name: "测试工程师" , info: "测试工程师，软件质量的把关者，工作起点高，发展空间大。我国的软件测试职业还处于一个发展的阶段，所以测试工程师具有较大发展前景。"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

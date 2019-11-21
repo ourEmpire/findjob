@@ -1,0 +1,35 @@
+{
+ "name": "高等数学",
+ "children": [
+  {
+   "name": "概率论和数理统计",
+   "children": [
+    {
+     "name": "人工智能",
+     "children": [
+      {"name": "AgglomerativeCluster", "value": 3938}
+     ]
+    }]
+  },
+  {
+    "name": "c语言",
+    "children": [
+     {
+      "name": "计算机系统基础",
+      "children": [
+       {"name": "AgglomerativeCluster", "value": 3938}
+      ]
+     }]
+   },
+   {
+    "name": "线性代数",
+    "children": [
+     {
+      "name": "计算机视觉",
+      "children": [
+       {"name": "AgglomerativeCluster", "value": 3938}
+      ]
+     }]
+   }
+ ]
+}

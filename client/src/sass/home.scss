@@ -1,0 +1,35 @@
+
+.home-content {
+    padding: 0;
+
+
+    & .home-content-msg {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+        #view-page {
+            height: 600px;
+            max-height: 900px;
+        }
+
+    }
+
+    .gap {
+        background: #fff;
+        width: 100%;
+        height: 40px;
+    }
+
+    .data-chart {
+        display: flex;
+
+        #analys {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+}

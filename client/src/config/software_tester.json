@@ -1,0 +1,38 @@
+{
+  "name": "软件测试师",
+  "children": [
+    {
+      "name": "软件测试",
+      "children": [
+        {
+          "name": "软件测试的艺术",
+          "value": 1108725
+        },
+        {
+          "name": "软件测试工程师面试指导",
+          "value": 1102259
+        }
+      ]
+    },
+    {
+      "name": "Essential Software Test Design",
+      "children": [
+        {"name": "微软的软件测试之道","value": 2208626},
+        {"name": "HI,BUGS全面软件测试","value": 1108725}
+      ]
+    },
+    {
+      "name": "计算机软件测试",
+      "children": [
+        {"name": "探索式软件测试", "value": 1801050,
+          "children":[
+            {"name": "自动化测试最佳实践","value": 1445661},
+              {"name": "软件自动化测试开发","value": 2178611},
+              {"name": "有效软件测试","value": 25863515},
+              {"name": "Google软件测试之道","value": 25752357}
+          ]
+        }
+      ]
+    }
+  ]
+}

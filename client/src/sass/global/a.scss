@@ -1,0 +1,41 @@
+.link-a,.line-a {
+    $line-height: 2px;
+
+    display: inline-block;
+    position: relative;
+    // color: #555;
+    border-bottom: none;
+    line-height: 1.2;
+    // vertical-align: top;
+    text-decoration-line: none;
+
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: linear-gradient(90deg,#a166ab 0,#ef4e7b 25%,#f37055 50%,#ef4e7b 75%,#a166ab 100%);
+        width: 100%;
+        height: $line-height;
+        bottom: -$line-height / 2;
+        left: 0;
+        background-color: #000;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        -moz-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        transform: scaleX(0);
+        transition-duration: .2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    }
+
+    &:hover::before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        -moz-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}

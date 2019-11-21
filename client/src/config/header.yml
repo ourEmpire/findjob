@@ -1,0 +1,37 @@
+header: 
+  color: black;
+  background: white;
+  children:
+    index:
+      text: 主页
+      icon: home
+      load: Home
+      path: /
+    search: 
+      text: 搜索
+      icon: search    
+      load: null
+      path: /search
+    study: 
+      text: 学习资料
+      icon: book
+      load: Book
+      path: /book
+    help:
+      text: 帮助
+      icon: bulb
+      load: Help
+      path: /help
+    about: 
+      text: 个人中心
+      icon: user
+      position: right
+      load: User
+      path: /user
+    login: 
+      text: 登录
+      icon: login
+      position: right
+      load: Login
+      path: /login
+    

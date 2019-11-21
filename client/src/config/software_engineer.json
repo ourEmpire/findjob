@@ -1,0 +1,38 @@
+{
+  "name": "软件工程师",
+  "children": [
+    {
+      "name": "代码大全",
+      "children": [
+        {
+          "name": "人件",
+          "value": 1108725
+        },
+        {
+          "name": "人月神话",
+          "value": 1102259
+        }
+      ]
+    },
+    {
+      "name": "敏捷软件开发",
+      "children": [
+        {"name": "构建之法（第二版） ","value": 2208626},
+        {"name": "企业应用架构模式","value": 1108725}
+      ]
+    },
+    {
+      "name": "持续交付",
+      "children": [
+        {"name": "javaScript DOM 编程艺术", "value": 1801050,
+          "children":[
+              {"name": "瞬间之美:Web界面设计如何让用户心动","value": 1445661},
+              {"name": "用户体验草图设计","value": 2178611},
+              {"name": "图解HTTP","value": 25863515},
+              {"name": "HTML与CSS进阶教程","value": 25752357}
+          ]
+        }
+      ]
+    }
+  ]
+}

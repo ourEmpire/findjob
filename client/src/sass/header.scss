@@ -1,0 +1,63 @@
+@import './global/a.scss';
+
+.findjob-comp-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    .header-left,.header-right {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        
+
+        & > div {
+            $gap: 13px;
+            margin-left: $gap;
+            margin-right: $gap;
+        }
+    }
+
+    .header-left {
+        flex-grow: 1;
+    }
+
+    & .findjob-comp-header-item,.header-left,.header-right {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+
+
+        & span {
+            padding-left: 4px;
+            padding-right: 4px;
+
+            color: #262626;
+            font-family: 'Segoe UI',sans-serif,Yahei,PingFang;
+
+            &:last-child {
+                font-size: 13px;
+
+                &:hover {
+                    color: rgba(184, 63, 63, 0.616);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        // .link-a {
+        //     vertical-align: baseline;
+        // }
+
+        &>div>a {
+            font-size: 15px;
+            color: #1d1e1f;
+
+            &:hover {
+                color: #1890ff;
+            }
+        }
+    }
+}

@@ -1,0 +1,231 @@
+/**
+author: ourfor
+date: 20190905
+description: the netflix style of login 
+*/
+$form-width: 314px;
+$input-height: 50px;
+
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: url("../image/login_bg.jpg") !important;
+}
+
+body{
+    
+    background-image: url("../image/login_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 1044px){
+        background-position: 90% 0;
+    }
+}
+
+#login-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+
+    h1{
+        color: #fff;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 28px;
+    }
+}
+
+form {
+    width: $form-width;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    label {
+        text-align: left;
+    }
+
+    & .place-label {
+        color: #000;
+        top: 7px;
+        font-size: 11px;
+        background: transparent;
+    }
+
+    & div.input-box {
+        height: $input-height;
+        padding: 0;
+        margin:0;
+        width: 100%;
+        text-align: left;
+        border-radius: 4px;
+        border: none;
+        background: #333;
+        position: relative;
+        display: flex;
+        outline: none;
+
+        &>label{
+            flex-grow: 1;
+        }
+
+        label[for]{
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 16px;
+            color: #8c8c8c;
+            transition-duration: 0.1s, 0.1s, 0.1s, 0.1s, 0.1s, 0.1s;
+            transition-timing-function: ease, ease, ease, ease, ease, ease;
+            transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
+        }
+        label.title {
+            font-size: 12px;
+            top: 7px;
+            transform: translateY(0);
+            transition-duration: 0.1s, 0.1s, 0.1s, 0.1s, 0.1s, 0.1s;
+            transition-timing-function: ease, ease, ease, ease, ease, ease;
+            transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
+        }
+
+    }
+
+    &>div {
+        padding-bottom: 16px;
+    }
+
+    input {
+        width: 100%;
+        outline: none;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        border-width: 0;
+        background: transparent;
+        padding: 16px 20px 0;
+        box-sizing: border-box;
+        height: 100%;
+        font-size: 16px;
+        color: #fff;
+
+        &:focus{
+            background-color: #454545;
+            border-radius: 4px;
+        }
+
+        @keyframes onAutoFillStart {
+            from {/**/}
+            to {/**/}
+          }
+          
+        @keyframes onAutoFillCancel {
+          from {/**/}
+          to {/**/}
+        }
+
+        &:-webkit-autofill{
+            animation-name: onAutoFillStart;
+            transition: ease-in-out 1s;
+        }
+
+        &:not(:-webkit-autofill) {
+            animation-name: onAutoFillCancel;
+         }
+    }
+
+    .login-select {
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &>div:first-child {
+            width: 24px;
+            height: 24px;
+            background-image: url('../image/login_wechat.svg');
+            background-position: center;
+            background-size: 100% 100%;
+            padding-bottom: 0;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    input[type=submit],#login-submit{
+        background: #e50914;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 24px 0 12px;
+        padding: 16px;
+        width: 100%;
+        max-width: 100%;
+        color: #fff;
+        height: auto;
+        border: none;
+        outline: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    label ~ button {
+        background-color: transparent;
+        color: #8c8c8c;
+        border: none;
+        padding: 0 12px;
+        height: $input-height;
+        font-size: 14px;
+        cursor: pointer;
+        display: none;
+        outline: none;
+    }
+
+    input:-webkit-autofill {
+        border-radius: 4px;
+    }
+}
+
+.wechat-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 314px;
+
+    button.decline {
+        width: 250px;
+        height: 50px;
+        border-radius: 11px;
+        margin-top: 20px;
+        background: #05c160;
+        color: #ededed;
+        font-size: 20px;
+        outline: none;
+        cursor: pointer;
+        border-width: 0;
+
+
+        &:hover {
+            color: #edededee;
+            background: #05d368;
+        }
+    }
+}

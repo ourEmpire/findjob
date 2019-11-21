@@ -1,0 +1,27 @@
+
+
+.job-cards {
+    width: 100%;
+    display: flex;
+    background: #fff;
+
+
+    .job-card {
+        flex-grow: 1;
+
+        .job-desc > p {
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 600;
+            opacity: .95;
+            padding-top: 1px;
+            padding-bottom: 2px;
+            margin-top: 37px;
+            color: #000;
+        }
+
+        .job-desc > section {
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+[Unit]
+Description=Init database
+After=mongod.service
+
+[Service]
+Type=forking
+WorkingDirectory=/opt/app/findjob
+PrivateUsers=true
+User=root
+Group=root
+# PIDFile=/run/init.pid
+
+# ExecStartPre=/usr/bin/rm -f /run/init.pid
+ExecStart=/bin/bash /opt/app/findjob/setup.sh
+ExecReload=/bin/kill -s HUP $MAINPID
+# Send SIGWINCH for graceful stop
+KillSignal=SIGWINCH
+KillMode=mixed
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

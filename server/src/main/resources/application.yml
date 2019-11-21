@@ -1,0 +1,98 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 300MB
+      max-request-size: 300MB
+  mustache:
+    check-template-location: false
+
+  main:
+    allow-bean-definition-overriding: true
+
+
+
+  data:
+    mongodb:
+      database: test
+      host: localhost
+      port: 27017
+
+
+mail:
+  default-encoding: UTF-8
+  host: smtp.qq.com
+  username: caretine@qq.com       #ourfor@foxmail.com
+  password: pwohoucpookpfgcg            #kyuukqaveehzeahj
+  port: 465
+  subject: 验证码
+  auth: true
+  ssl: true
+  type: text/html;charset=UTF-8
+
+
+
+server:
+  port: 80
+  servlet:
+    context-path: /api/1.0/
+
+management:
+  endpoints:
+    web:
+      base-path: /monitor
+      exposure:
+        include: '*'
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      show-details: always
+
+crawler:
+  job51: {"url": "https://search.51job.com/list/000000,000000,0000,32,9,99,",
+          "project_manager": "%25E9%25A1%25B9%25E7%259B%25AE%25E7%25BB%258F%25E7%2590%2586",
+          "product_manager": "%25E4%25BA%25A7%25E5%2593%2581%25E7%25BB%258F%25E7%2590%2586",
+          "UI_designer": "UI%25E8%25AE%25BE%25E8%25AE%25A1%25E5%25B8%2588",
+          "software_engineer": "%25E8%25BD%25AF%25E4%25BB%25B6%25E5%25B7%25A5%25E7%25A8%258B%25E5%25B8%2588",
+          "software_tester": "%25E8%25BD%25AF%25E4%25BB%25B6%25E6%25B5%258B%25E8%25AF%2595%25E5%25B7%25A5%25E7%25A8%258B%25E5%25B8%2588"
+        }
+
+  douban:
+    - "科普"
+    - "互联网"
+    - "编程"
+    - "科学"
+    - "交互设计"
+    - "用户体验"
+    - "算法"
+    - "科技"
+    - "web"
+    - "交互"
+    - "通信"
+    - "UE"
+    - "UCD"
+    - "神经网络"
+    - "程序"
+
+ai:
+  proficiency:
+    - "了解"
+    - "具备"
+    - "熟悉"
+    - "熟练使用"
+    - "掌握"
+    - "精通"
+
+  technology:
+    - "HTML"
+    - "JavaScript"
+    - "软件测试技术"
+    - "Quartz"
+
+comment:
+  words:
+    - "mmp"
+    - "操你妈"
+    - "尼玛"
+    - "艹"
+    - "他妈的"

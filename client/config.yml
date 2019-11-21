@@ -1,0 +1,33 @@
+about:
+  author: ourfor
+  version: 0.0.1
+  repo: https://www.trustie.net/projects/5798/repository/findjob
+  desc: Help college student to find job
+
+
+# 主页轮播图
+home:
+  albums:
+    - 'https://file.ourfor.top/source/blog/cover/home/pexels-photo-62689.jpeg'
+    - 'https://file.ourfor.top/source/blog/cover/home/pexels-photo-296878.jpeg'
+    - 'https://file.ourfor.top/source/blog/cover/home/pexels-photo-1509428.jpeg'
+    - 'https://file.ourfor.top/source/blog/cover/home/pexels-photo-351265.jpeg'
+    - 'https://file.ourfor.top/source/blog/cover/home/pexels-photo-924675.jpeg'
+
+  poker:
+    - 'https://file.ourfor.top/source/blog/cover/home/RWS_Tarot_08_Strength.jpg'
+    - 'https://file.ourfor.top/source/blog/cover/home/RWS_Tarot_16_Tower.jpg'
+    - 'https://file.ourfor.top/source/blog/cover/home/RWS_Tarot_07_Chariot.jpg'
+    - 'https://file.ourfor.top/source/blog/cover/home/RWS_Tarot_06_Lovers.jpg'
+    - 'https://file.ourfor.top/source/blog/cover/home/RWS_Tarot_02_High_Priestess.jpg'
+    - 'https://file.ourfor.top/source/blog/cover/home/RWS_Tarot_01_Magician.jpg'
+
+study: api.example.com
+api:
+  login: 
+    auth: https://api.ourfor.top/blog/auth
+    wechat: https://api.ourfor.top/blog/login/qrs.jpg
+  home: 
+    location: http://api.ourfor.sh/job/users/location
+  search:
+    info: http://api.ourfor.sh/job/users/jc
